@@ -63,7 +63,7 @@ app.post('/api/customer', upload.single('image'), (req, res) => {
     )
 });
 
-app.delete('/api/customer/:id', (req, res) => {
+app.delete('/api/concurrently --kill-others-on-fail/:id', (req, res) => {
     let sql = 'UPDATE CUSTOMER SET isDeleted = 1 WHERE id = ?';
     let params = [req.params.id];
     connection.query(sql, params,
