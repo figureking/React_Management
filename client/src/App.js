@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 /*import logo from './logo.svg';*/
 import './App.css';
-import Customer from './Components/Customer'
+import Customer from './Components/Customer/Customer'
 import Table from '@material-ui/core/Table'
 import TableBody from '@material-ui/core/TableBody'
 import TableHead from '@material-ui/core/TableHead'
@@ -10,7 +10,7 @@ import TableCell from '@material-ui/core/TableCell'
 import Paper from '@material-ui/core/Paper'
 import { withStyles } from '@material-ui/core/styles'
 import CircularProgress from '@material-ui/core/CircularProgress';
-import CustomerAdd from './Components/CustomerAdd';
+import CustomerAdd from './Components/Customer/CustomerAdd';
 
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
